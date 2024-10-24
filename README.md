@@ -1,4 +1,5 @@
 # example
-test example
+test example for a wesite hosted on github
 
-test
+This is my personal website. 
+last date of work is Oct 24
