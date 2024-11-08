@@ -23,3 +23,31 @@
 .navbar nav ul li a:hover {
     background-color: #555; /* Change background on hover */
 }
+
+/* Add this CSS to style the sticky tab */
+.sticky-tab {
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    background-color: #333; /* Background color */
+    color: white; /* Text color */
+    padding: 15px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.sticky-tab button {
+    background: none; /* No background */
+    border: none; /* No border */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor */
+    margin-left: 10px; /* Space between text and button */
+}
+
+/* Add this CSS to set the background color for the about page */
+.wolfwood-grey {
+    background-color: #A9A9A9; /* Wolfwood grey */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
