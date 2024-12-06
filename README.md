@@ -11,3 +11,7 @@
 
     TLDR: I made frame work to build from. 
 
+
+### we are back part 2 Nov 13 
+    Things were going stupendous, on Nov 10 Sun, my research partner mikey and I were able to successfully implement a field test of a bluetooth mesh network. I wont go into many details here but it was pretty cool. I am making slow progress with my homlabing project. buttttttt well see what I can get done. 
+
