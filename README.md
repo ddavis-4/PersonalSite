@@ -13,5 +13,12 @@
 
 
 ### we are back part 2 Nov 13 
-    Things were going stupendous, on Nov 10 Sun, my research partner mikey and I were able to successfully implement a field test of a bluetooth mesh network. I wont go into many details here but it was pretty cool. I am making slow progress with my homlabing project. buttttttt well see what I can get done. 
+    Things were going stupendous, on Nov 10 Sun, my research partner mikey and I were able to successfully implement a field test of a bluetooth mesh network. I wont go into many details here but it was pretty cool. I am making slow progress with my homlabing project. buttttttt well see what I can get done.
+
+### Dec 6 2024
+    Hello dearest Mother, 
+
+        I am writing to you from the front. The days here grow bleak and dim. I will be sent over the trench in two weeks time.
+        
+             but, I am bored in class and dont wanna focus right now so im going to see what I can get done here for a bit. OH, I did do anything last time. 
 

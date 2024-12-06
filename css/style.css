@@ -1,4 +1,14 @@
-/* Add this CSS to style the navigation */
+/*==================== The Colors ==============================*/
+
+/* Add this CSS to set the background color for the about page */
+.wolfwood-grey {
+    background-color: #A9A9A9; /* Wolfwood grey */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+
+/*==================== The navigation ==============================*/
 .navbar {
     background-color: #333; /* Background color for the navbar */
 }
@@ -24,7 +34,7 @@
     background-color: #555; /* Change background on hover */
 }
 
-/* Add this CSS to style the sticky tab */
+/* ====================== The sticky tab ===========================*/ 
 .sticky-tab {
     position: fixed; /* Fixed position */
     bottom: 20px; /* Distance from the bottom */
@@ -38,16 +48,37 @@
 }
 
 .sticky-tab button {
-    background: none; /* No background */
-    border: none; /* No border */
+    background-color: #007BFF; /* Button background color */
     color: white; /* Text color */
+    border: none; /* No border */
+    padding: 5px 10px; /* Padding */
+    border-radius: 3px; /* Rounded corners */
     cursor: pointer; /* Pointer cursor */
-    margin-left: 10px; /* Space between text and button */
+    margin-left: 10px; /* Space between buttons */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
-/* Add this CSS to set the background color for the about page */
-.wolfwood-grey {
-    background-color: #A9A9A9; /* Wolfwood grey */
-    margin: 0; /* Remove default margin */
-    font-family: Arial, sans-serif; /* Optional: Set a default font */
+.sticky-tab button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Add this CSS to change button color when clicked */
+.sticky-tab button.clicked {
+    background-color: red; /* Change to red when clicked */
+    color: white; /* Ensure text is visible */
+}
+
+
+/* ================ The GO KU popup message ==============*/
+.popup-message {
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* distance from the right */
+    transform: translateX(-50%); /* Center adjustment */
+    background-color: #333; /* Background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    z-index: 1001; /* Ensure it appears above other content */
+    transition: opacity 0.5s; /* Smooth transition for appearance */
 }

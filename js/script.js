@@ -14,14 +14,50 @@ document.addEventListener("DOMContentLoaded", function() {
     stickyTab.className = 'sticky-tab';
     stickyTab.innerHTML = `
         <p>Thank you for visiting! Please like and subscribe!</p>
-        <button id="close-tab">X</button>
+        <button id="like-button">Like</button>
+        <button id="subscribe-button">Subscribe</button>
     `;
 
     // Append the sticky tab to the body
     document.body.appendChild(stickyTab);
 
-    // Close button functionality
-    document.getElementById('close-tab').addEventListener('click', function() {
-        stickyTab.style.display = 'none'; // Hide the tab when clicked
+    // Track button clicks
+    let likeClicked = false;
+    let subscribeClicked = false;
+
+    // Like button functionality
+    document.getElementById('like-button').addEventListener('click', function() {
+        likeClicked = true;
+        this.classList.add('clicked'); // Change button color to red
+        checkButtons();
     });
+
+    // Subscribe button functionality
+    document.getElementById('subscribe-button').addEventListener('click', function() {
+        subscribeClicked = true;
+        this.classList.add('clicked'); // Change button color to red
+        checkButtons();
+    });
+
+    // Function to check if both buttons are clicked
+    function checkButtons() {
+        if (likeClicked && subscribeClicked) {
+            stickyTab.style.display = 'none'; // Hide the tab when both buttons are clicked
+            showMessage(); // Show the message
+        }
+    }
+
+    // Function to show the message
+    function showMessage() {
+        const message = document.createElement('div');
+        message.className = 'popup-message';
+        message.innerText = 'GO, KU';
+        document.body.appendChild(message);
+
+        // Remove the message after 3 seconds
+        setTimeout(() => {
+            message.style.display = 'none'; // Hide the message
+            document.body.removeChild(message); // Remove the message from the DOM
+        }, 3000);
+    }
 });
