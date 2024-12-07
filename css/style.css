@@ -73,12 +73,26 @@
 .popup-message {
     position: fixed; /* Fixed position */
     bottom: 20px; /* Distance from the bottom */
-    right: 20px; /* distance from the right */
-    transform: translateX(-50%); /* Center adjustment */
+    right: 20px; /* Start from the bottom right */
     background-color: #333; /* Background color */
     color: white; /* Text color */
     padding: 10px 20px; /* Padding */
     border-radius: 5px; /* Rounded corners */
     z-index: 1001; /* Ensure it appears above other content */
-    transition: opacity 0.5s; /* Smooth transition for appearance */
+    transition: transform 6s ease; /* Smooth transition for movement */
+    transform: translateX(0); /* Start at the original position */
+}
+
+/* Slide-in animation */
+.popup-message.slide-in {
+    transform: translateX(-100vw); /* Move to the left off-screen */
+}
+
+/* Add this CSS to center the content horizontally at the top */
+.content {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center horizontally */
+    padding-top: 20px; /* Optional: Add some padding from the top */
+    text-align: center; /* Center text */
 }

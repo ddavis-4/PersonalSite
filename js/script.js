@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Example of generating content dynamically
     const dynamicContent = `
         <h3>Welcome to My Page!</h3>
-        <p>This content was generated dynamically using JavaScript.</p>
+        <p>YO We're under construction.</p>
     `;
 
     contentDiv.innerHTML += dynamicContent; // Append dynamic content to the existing content
@@ -50,9 +50,14 @@ document.addEventListener("DOMContentLoaded", function() {
     // Function to show the message
     function showMessage() {
         const message = document.createElement('div');
-        message.className = 'popup-message';
-        message.innerText = 'GO, KU';
+        message.className = 'popup-message'; // No slide-in class initially
+        message.innerText = 'ROCK CHALK JAYHAWK, GO KU';
         document.body.appendChild(message);
+
+        // Trigger the slide-in effect after appending
+        setTimeout(() => {
+            message.classList.add('slide-in'); // Add slide-in class to start animation
+        }, 10); // Small timeout to ensure the class is applied after the element is in the DOM
 
         // Remove the message after 3 seconds
         setTimeout(() => {
