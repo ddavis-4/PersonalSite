@@ -25,5 +25,5 @@
 
         I have done much Now I must work on uploading my content.
 
-### Dec 8 2024 
+### Dec 9 2024 
     I am in my senior design class and we have a quest lecturer. My page is now consistent. I need to work on populating it with content.  
