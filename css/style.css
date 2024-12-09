@@ -7,10 +7,40 @@
     font-family: Arial, sans-serif; /* Optional: Set a default font */
 }
 
+.burnt-orange {
+    background-color: #CC5500; /* Burnt Orange */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+.dark-green {
+    background-color: #006400; /* dark green */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+.crimson {
+    background-color: #DC143c; /* dark green */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
 
 /*==================== The navigation ==============================*/
 .navbar {
     background-color: #333; /* Background color for the navbar */
+    position: fixed; /* Make the navbar fixed at the top */
+    top: 0; /* Position it at the top of the screen */
+    width: 100%; /* Ensure it spans the full width */
+    z-index: 1000; /* Ensure it appears above other content */
+    padding: 20px 0; /* Add vertical padding to increase height */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for depth */
+    padding-bottom: 5px;
+}
+
+.navbar .container {
+    max-width: 1200px; /* Optional: Set a max width for the content */
+    margin: 0 auto; /* Center the content */
+    padding: 0 20px; /* Add horizontal padding */
 }
 
 .navbar nav ul {
@@ -28,10 +58,18 @@
     text-decoration: none; /* Remove underline */
     padding: 10px 15px; /* Padding for clickable area */
     transition: background-color 0.3s; /* Smooth transition for hover effect */
+    font-family: 'Courier New', Courier, monospace
 }
 
 .navbar nav ul li a:hover {
     background-color: #555; /* Change background on hover */
+}
+
+.logo {
+    color: #FFFAFA; /* Change this to your desired color */
+    font-size: 24px; /* Adjust the font size as needed */
+    margin: 0; /* Remove default margin */
+    font-family: 'Courier New', Courier, monospace
 }
 
 /* ====================== The sticky tab ===========================*/ 
@@ -93,6 +131,6 @@
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack children vertically */
     align-items: center; /* Center horizontally */
-    padding-top: 20px; /* Optional: Add some padding from the top */
+    padding-top: 40px; /* Optional: Add some padding from the top */
     text-align: center; /* Center text */
 }
