@@ -20,5 +20,9 @@
 
         I am writing to you from the front. The days here grow bleak and dim. I will be sent over the trench in two weeks time.
         
-             but, I am bored in class and dont wanna focus right now so im going to see what I can get done here for a bit. OH, I did do anything last time. 
+             but, I am bored in class and dont wanna focus right now so im going to see what I can get done here for a bit. OH, I did do anything last time.
 
+        I have done much Now I must work on uploading my content.
+
+### Dec 8 2024 
+    I am in my senior design class and we have a quest lecturer. My page is now consistent. I need to work on populating it with content.  
