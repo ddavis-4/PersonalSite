@@ -8,22 +8,25 @@
     - I did like nothing tbh. 
 
 ### We're back after some midterms and it is now Nov 8, lets see what I get done. 
-    - I did some stuff with the structure of the site. So initially when I started on this like a year and a half ago I was following a youtube tutorial. my first steps today were getting rid of a lof of the stuff in the header that I didn't understand. From there I made a 'pages' dir and created some pages to navigate to. I really am just makeing a structure I can build from. like on my projects page I have a few links, only the first one leads anywhere right now and it is too my github. 
+- I did some stuff with the structure of the site. So initially when I started on this like a year and a half ago I was following a youtube tutorial. my first steps today were getting rid of a lof of the stuff in the header that I didn't understand. From there I made a 'pages' dir and created some pages to navigate to. I really am just makeing a structure I can build from. like on my projects page I have a few links, only the first one leads anywhere right now and it is too my github. 
 
     TLDR: I made frame work to build from. 
 
 
 ### we are back part 2 Nov 13 
-    Things were going stupendous, on Nov 10 Sun, my research partner mikey and I were able to successfully implement a field test of a bluetooth mesh network. I wont go into many details here but it was pretty cool. I am making slow progress with my homlabing project. buttttttt well see what I can get done.
+Things were going stupendous, on Nov 10 Sun, my research partner mikey and I were able to successfully implement a field test of a bluetooth mesh network. I wont go into many details here but it was pretty cool. I am making slow progress with my homlabing project. buttttttt well see what I can get done.
 
 ### Dec 6 2024
-    Hello dearest Mother, 
+Hello dearest Mother, 
 
-        I am writing to you from the front. The days here grow bleak and dim. I will be sent over the trench in two weeks time.
+    I am writing to you from the front. The days here grow bleak and dim. I will be sent over the trench in two weeks time.
         
-             but, I am bored in class and dont wanna focus right now so im going to see what I can get done here for a bit. OH, I did do anything last time.
+        but, I am bored in class and dont wanna focus right now so im going to see what I can get done here for a bit. OH, I did do anything last time.
 
-        I have done much Now I must work on uploading my content.
+    I have done much Now I must work on uploading my content.
 
 ### Dec 9 2024 
-    I am in my senior design class and we have a quest lecturer. My page is now consistent. I need to work on populating it with content.  
+I am in my senior design class and we have a quest lecturer. My page is now consistent. I need to work on populating it with content.  
+
+### Dec 11 2024 
+I didnt do any work on the cite yesterday but I did have a chance in class to upload at lot of the coding assignments ive done for class. I was only able to get the stuff I have on my personal mac, Ill go to a lab computer and upload more content soon. 
