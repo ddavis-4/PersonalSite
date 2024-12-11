@@ -1,8 +1,11 @@
 # This is my personal website. 
-this started as an example of how to host websites using github. It has now evolved to where I keep semi consistent updates of my life while I work on my porfilio cite.
+this started as an example of how to host websites using github. It has now evolved to where I keep semi consistent updates of my life while I work on my porfilio site.
 
 ## example
  this is a test example for a wesite hosted on github
+
+# !!Important!!
+To view my site go to settings while in the 'PersonalSite' repository. On the left side under 'code and automation' select 'pages'. You should then see the option to visit the site. 
 
 ### last date of work is Oct 24
     - I did like nothing tbh. 
@@ -29,4 +32,4 @@ Hello dearest Mother,
 I am in my senior design class and we have a quest lecturer. My page is now consistent. I need to work on populating it with content.  
 
 ### Dec 11 2024 
-I didnt do any work on the cite yesterday but I did have a chance in class to upload at lot of the coding assignments ive done for class. I was only able to get the stuff I have on my personal mac, Ill go to a lab computer and upload more content soon. 
+I didnt do any work on the site yesterday but I did have a chance in class to upload at lot of the coding assignments ive done for class. I was only able to get the stuff I have on my personal mac, Ill go to a lab computer and upload more content soon. 
