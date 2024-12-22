@@ -7,7 +7,7 @@ this started as an example of how to host websites using github. It has now evol
 # !!Important!!
 To view my site go to settings while in the 'PersonalSite' repository. On the left side under 'code and automation' select 'pages'. You should then see the option to visit the site. 
 
-or click this link, https://ddavis-4.github.io/PersonalSite/pages/contact.html.
+or click this link, https://ddavis-4.github.io/PersonalSite/index.html.
 ### last date of work is Oct 24
     - I did like nothing tbh. 
 
