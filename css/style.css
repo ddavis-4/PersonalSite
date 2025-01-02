@@ -1,33 +1,63 @@
 /*==================== The Colors ==============================*/
 
+/* Not all are used */
+
+
 /* Add this CSS to set the background color for the about page */
 .wolfwood-grey {
     background-color: #A9A9A9; /* Wolfwood grey */
     margin: 0; /* Remove default margin */
-    font-family: Arial, sans-serif; /* Optional: Set a default font */
 }
 
 .burnt-orange {
     background-color: #CC5500; /* Burnt Orange */
     margin: 0; /* Remove default margin */
-    font-family: Arial, sans-serif; /* Optional: Set a default font */
 }
 
 .dark-green {
     background-color: #006400; /* dark green */
     margin: 0; /* Remove default margin */
-    font-family: Arial, sans-serif; /* Optional: Set a default font */
 }
 
+.forest-green5{
+    background-color: #d3e8d3;
+    margin: 0;
+}
+
+.forest-green {
+    background-color: #599a59; 
+    margin: 0; /* Remove default margin */
+}
+
+.forest-green1 {
+    background-color: #4d924d; 
+    margin: 0; /* Remove default margin */
+}
+
+.forest-green2 {
+    background-color: #408b40; 
+    margin: 0; /* Remove default margin */
+}
+
+.forest-green3{
+    background-color: #338333;
+    margin: 0;  
+}
 .crimson {
     background-color: #DC143c; /*crimson*/
     margin: 0; /* Remove default margin */
-    font-family: Arial, sans-serif; /* Optional: Set a default font */
 }
+
+.ivory {
+    background-color: #FFFFF0; /*Ivory*/
+    margin: 0; /* Remove default margin */
+}
+
+
 
 /*==================== The navigation ==============================*/
 .navbar {
-    background-color: #333; /* Background color for the navbar */
+    background-color: #FFFFF0; /* Background color for the navbar */
     position: fixed; /* Make the navbar fixed at the top */
     top: 0; /* Position it at the top of the screen */
     width: 100%; /* Ensure it spans the full width */
@@ -54,7 +84,7 @@
 }
 
 .navbar nav ul li a {
-    color: white; /* Text color */
+    color: black; /* Text color */
     text-decoration: none; /* Remove underline */
     padding: 10px 15px; /* Padding for clickable area */
     transition: background-color 0.3s; /* Smooth transition for hover effect */
@@ -66,8 +96,8 @@
 }
 
 .logo {
-    color: #FFFAFA; /* Change this to your desired color */
-    font-size: 24px; /* Adjust the font size as needed */
+    color: black; /* Change this to your desired color */
+    font-size: 24px; /* Adjust the font size */
     margin: 0; /* Remove default margin */
     font-family: 'Courier New', Courier, monospace
 }
@@ -77,8 +107,8 @@
     position: fixed; /* Fixed position */
     bottom: 20px; /* Distance from the bottom */
     right: 20px; /* Distance from the right */
-    background-color: #333; /* Background color */
-    color: white; /* Text color */
+    background-color: #FFFFF0; /* Background color */
+    color: black; /* Text color */
     padding: 15px; /* Padding */
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
@@ -103,7 +133,7 @@
 /* Add this CSS to change button color when clicked */
 .sticky-tab button.clicked {
     background-color: red; /* Change to red when clicked */
-    color: white; /* Ensure text is visible */
+    color: black; /* Ensure text is visible */
 }
 
 
@@ -112,8 +142,8 @@
     position: fixed; /* Fixed position */
     bottom: 20px; /* Distance from the bottom */
     right: 20px; /* Start from the bottom right */
-    background-color: #333; /* Background color */
-    color: white; /* Text color */
+    background-color: #FFFFF0; /* Background color */
+    color: black; /* Text color */
     padding: 10px 20px; /* Padding */
     border-radius: 5px; /* Rounded corners */
     z-index: 1001; /* Ensure it appears above other content */
