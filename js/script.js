@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Example of generating content dynamically
     const dynamicContent = `
-        <h3>Welcome to My Page!</h3>
-        <p>YO We're under construction.</p>
+        <h1>Welcome to My Page!</h1>
+        <p>Sorry! We're under construction.?</p>
     `;
 
     contentDiv.innerHTML += dynamicContent; // Append dynamic content to the existing content
@@ -65,4 +65,41 @@ document.addEventListener("DOMContentLoaded", function() {
             document.body.removeChild(message); // Remove the message from the DOM
         }, 3000);
     }
+});
+
+
+let lastScrollTop = 0; // Variable to store the last scroll position
+const navbar = document.querySelector('.navbar'); // Select the navbar
+
+window.addEventListener('scroll', function() {
+    const currentScroll = window.pageYOffset || document.documentElement.scrollTop; // Get the current scroll position
+
+    if (currentScroll > lastScrollTop) {
+        // Scrolling down
+        navbar.style.top = '-100px'; // Hide the navbar (adjust this value based on your navbar height)
+    } else {
+        // Scrolling up
+        navbar.style.top = '0'; // Show the navbar
+    }
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Update last scroll position
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Existing code...
+
+    let lastScrollTop = 0; // Variable to store the last scroll position
+    const navbar = document.querySelector('.navbar'); // Select the navbar
+
+    window.addEventListener('scroll', function() {
+        const currentScroll = window.pageYOffset || document.documentElement.scrollTop; // Get the current scroll position
+
+        if (currentScroll > lastScrollTop) {
+            // Scrolling down
+            navbar.style.top = '-100px'; // Hide the navbar (adjust this value based on your navbar height)
+        } else {
+            // Scrolling up
+            navbar.style.top = '0'; // Show the navbar
+        }
+        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Update last scroll position
+    });
 });
