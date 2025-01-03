@@ -25,14 +25,14 @@ document.addEventListener("DOMContentLoaded", function() {
     let likeClicked = false;
     let subscribeClicked = false;
 
-    // Like button functionality
+    // Like button 
     document.getElementById('like-button').addEventListener('click', function() {
         likeClicked = true;
         this.classList.add('clicked'); // Change button color to red
         checkButtons();
     });
 
-    // Subscribe button functionality
+    // Subscribe button 
     document.getElementById('subscribe-button').addEventListener('click', function() {
         subscribeClicked = true;
         this.classList.add('clicked'); // Change button color to red
