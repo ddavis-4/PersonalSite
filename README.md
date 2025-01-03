@@ -17,7 +17,6 @@ or click this link, https://ddavis-4.github.io/PersonalSite/index.html.
 
 TLDR: I made frame work to build from. 
 
-
 ### we are back part 2 Nov 13 
 Things were going stupendous, on Nov 10 Sun, my research partner mikey and I were able to successfully implement a field test of a bluetooth mesh network. I wont go into many details here but it was pretty cool. I am making slow progress with my homlabing project. buttttttt well see what I can get done.
 
@@ -37,6 +36,18 @@ I am in my senior design class and we have a quest lecturer. My page is now cons
 I didnt do any work on the site yesterday but I did have a chance in class to upload at lot of the coding assignments ive done for class. I was only able to get the stuff I have on my personal mac, Ill go to a lab computer and upload more content soon. 
 
 
+
+
+
+
 # End 2024 - Start 2025
 ### January 1 2025 
 Happy new year. I haven't worked on this in a little while, I finished up school well. My GPA is a little lower than I would like, but still in a good range with one semester left. I do not think I would like to go to graduate school, at least not right off the bat. I want a job I want to get real experience. So, I had been working on my github, linked-in, and resume before christmas. Now I am getting back to it. I just plan to fix the color scheme of my site. 
+
+### January 2 2025 
+Well I think I fixed the scheme, and I fixed a few other things. I added functionality so when you scroll down the nav bar will disapear. Now I just need some content for my pages, lol.
+I will note that I was afraid I wouldn't be able to work with my code or with the framework I made earlier. imposter syndrome at its finest, I was able to do much of what I wanted with little assistance from AI, which at the end of the day if you wanna get anything done put the AI away eventually. 
+
+- Resume
+
+- Perhaps a write up or two about the projects I am working on so people can read what I write about them. 
