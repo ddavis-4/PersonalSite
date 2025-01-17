@@ -46,3 +46,5 @@ I will note that I was afraid I wouldn't be able to work with my code or with th
 
 ### January 17 2025 
 So it has been a few days about two weeks since I have written to you. I have complete my resume and my indeed profile. I still need to update my Linked in, however I have begun looking for jobs. I am writing this because my resume works on my site now.
+
+okay maybe not.
