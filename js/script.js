@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <h1>Welcome to My Pro-tfolio!</h1>
         <p>Sorry! We're under construction.?</p>
         <ul>
-            <li><a href="../extra/resume.pdf"> Resume </a></li> 
+            <li><a href="../extra/Resume.pdf"> Resume </a></li> <!-- Updated path -->
         </ul>
     `;
 
