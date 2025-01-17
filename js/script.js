@@ -5,9 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const dynamicContent = `
         <h1>Welcome to My Pro-tfolio!</h1>
         <p>Sorry! We're under construction.?</p>
-        <ul>
-            <li><a href="../extra/Resume.pdf"> Resume </a></li> <!-- Updated path -->
-        </ul>
     `;
 
     contentDiv.innerHTML += dynamicContent; // Append dynamic content to the existing content
