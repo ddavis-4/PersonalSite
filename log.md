@@ -48,3 +48,11 @@ I will note that I was afraid I wouldn't be able to work with my code or with th
 So it has been a few days about two weeks since I have written to you. I have complete my resume and my indeed profile. I still need to update my Linked in, however I have begun looking for jobs. I am writing this because my resume works on my site now.
 
 okay maybe not.
+
+### January 22 2025
+
+To day was the second day of my last semester. Guess what ? thats right my resume works again on my personal site. I had to move it from the extra dir, and put it with the other pages. The only link that doesn't work is on the index page. As it is defined in the js and the route is different from the index page compared to the other pages. So I am going to have to stop bein lazy with my programming but thats an issue for some other time. she'll play!
+
+Also working on my git skills as I am somewhat a bot.
+
+I asked a friend for help and he reminded me how much more talented some programmers are. 
