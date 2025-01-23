@@ -56,3 +56,13 @@ To day was the second day of my last semester. Guess what ? thats right my resum
 Also working on my git skills as I am somewhat a bot.
 
 I asked a friend for help and he reminded me how much more talented some programmers are. 
+
+
+### January 23 2025 
+
+good morning, 
+
+Today I have class... lets go...!
+I want to finish this soon I dont think I have much left to do. I will soon start work on my Home Lab project again soon. I am looking forward to having my own remote environment I can ssh into. I am in econ, soon I will populate the rest of this site with my information as I have updated my resume and my linked-in. 
+
+A lot of other sites I have seen are far more advanced, but they are looking to be web designers. This is just a project for me to update to show I know how to code, and catch attention. 
