@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const dynamicContent = `
         <h1>Welcome to My Pro-tfolio!</h1>
         <p>Sorry! We're under construction.</p>
+        <p>If you click this link from the 'Home' or index page it won't work.</p>
+        <p>Soon to fix</p>
         <a href="../pages/Resume.pdf">Resume</a>
     `;
 
