@@ -131,7 +131,7 @@
     background-color: #0056b3; /* Darker shade on hover */
 }
 
-/* Add this CSS to change button color when clicked */
+/* Add this CSS to change button color when clicked  'hi script.js'*/
 .sticky-tab button.clicked {
     background-color: red; /* Change to red when clicked */
     color: black; /* Ensure text is visible */
@@ -148,7 +148,7 @@
     padding: 10px 20px; /* Padding */
     border-radius: 5px; /* Rounded corners */
     z-index: 1001; /* Ensure it appears above other content */
-    transition: transform 6s ease; /* Smooth transition for movement */
+    transition: transform 9s ease; /* Smooth transition for movement */
     transform: translateX(0); /* Start at the original position */
 }
 
@@ -157,6 +157,10 @@
     transform: translateX(-100vw); /* Move to the left off-screen */
 }
 
+
+
+/* ================ Content ==============*/
+/* This needs to be on the page for the js to work */
 /* Add this CSS to center the content horizontally at the top */
 .content {
     display: flex; /* Use flexbox for layout */

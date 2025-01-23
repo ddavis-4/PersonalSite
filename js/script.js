@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", function() {
     // Example of generating content dynamically
     const dynamicContent = `
         <h1>Welcome to My Pro-tfolio!</h1>
-        <p>Sorry! We're under construction.?</p>
+        <p>Sorry! We're under construction.</p>
         <a href="../pages/Resume.pdf">Resume</a>
     `;
 
     contentDiv.innerHTML += dynamicContent; // Append dynamic content to the existing content
 
-    // Create a sticky tab element
+    // Create the like and subscribe pop up
     const stickyTab = document.createElement('div');
     stickyTab.className = 'sticky-tab';
     stickyTab.innerHTML = `
@@ -19,24 +19,25 @@ document.addEventListener("DOMContentLoaded", function() {
         <button id="subscribe-button">Subscribe</button>
     `;
 
-    // Append the sticky tab to the body
+    // Append to the body
     document.body.appendChild(stickyTab);
 
-    // Track button clicks
+    // Track when buttons are clicked
     let likeClicked = false;
     let subscribeClicked = false;
 
+    const newLocal = 'click';
     // Like button 
     document.getElementById('like-button').addEventListener('click', function() {
         likeClicked = true;
-        this.classList.add('clicked'); // Change button color to red
+        this.classList.add('clicked'); // Change button color to red 'hi style.css'
         checkButtons();
     });
 
     // Subscribe button 
     document.getElementById('subscribe-button').addEventListener('click', function() {
         subscribeClicked = true;
-        this.classList.add('clicked'); // Change button color to red
+        this.classList.add('clicked'); // Change button color to red 'hi style.css'
         checkButtons();
     });
 
@@ -60,11 +61,11 @@ document.addEventListener("DOMContentLoaded", function() {
             message.classList.add('slide-in'); // Add slide-in class to start animation
         }, 10); // Small timeout to ensure the class is applied after the element is in the DOM
 
-        // Remove the message after 3 seconds
+        // Remove the message after 9 seconds
         setTimeout(() => {
             message.style.display = 'none'; // Hide the message
             document.body.removeChild(message); // Remove the message from the DOM
-        }, 3000);
+        }, 9000);
     }
 });
 
@@ -86,7 +87,7 @@ window.addEventListener('scroll', function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    // Existing code...
+    
 
     let lastScrollTop = 0; // Variable to store the last scroll position
     const navbar = document.querySelector('.navbar'); // Select the navbar
