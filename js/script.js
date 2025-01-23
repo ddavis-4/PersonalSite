@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Example of generating content dynamically
     const dynamicContent = `
-        <h1>Welcome to My Pro-tfolio!</h1>
+        <h4>Welcome to My Pro-tfolio!</h4>
         <p>Sorry! We're under construction.</p>
         <p>If you click this link from the 'Home' or index page it won't work.</p>
         <p>Soon to fix!</p>
