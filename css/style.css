@@ -169,3 +169,12 @@
     padding-top: 100px; /* Optional: Add some padding from the top */
     text-align: center; /* Center text */
 }
+
+/* ==== is there no easier way to center content????? ==== */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Adjust as needed */
+}
