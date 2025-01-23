@@ -66,3 +66,5 @@ Today I have class... lets go...!
 I want to finish this soon I dont think I have much left to do. I will soon start work on my Home Lab project again soon. I am looking forward to having my own remote environment I can ssh into. I am in econ, soon I will populate the rest of this site with my information as I have updated my resume and my linked-in. 
 
 A lot of other sites I have seen are far more advanced, but they are looking to be web designers. This is just a project for me to update to show I know how to code, and catch attention. 
+
+I just remember the other site I have up and how it is broken. Ill get around to fixing it. There is so much to do and so much to learn. 
