@@ -51,7 +51,7 @@ okay maybe not.
 
 ### January 22 2025
 
-To day was the second day of my last semester. Guess what ? thats right my resume works again on my personal site. I had to move it from the extra dir, and put it with the other pages. The only link that doesn't work is on the index page. As it is defined in the js and the route is different from the index page compared to the other pages. So I am going to have to stop bein lazy with my programming but thats an issue for some other time. she'll play!
+To day was the second day of my last semester. Guess what ? thats right my resume works again on my personal site. please hold the applause, I had help. I had to move it from the 'extra' dir, and put it with the other pages. The only link that doesn't work is on the index page. As it is defined in the js and the route is different from the index page compared to the other pages. So I am going to have to stop bein lazy with my programming but thats an issue for some other time. she'll play!
 
 Also working on my git skills as I am somewhat a bot.
 
