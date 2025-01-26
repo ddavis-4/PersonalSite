@@ -68,3 +68,8 @@ I want to finish this soon I dont think I have much left to do. I will soon star
 A lot of other sites I have seen are far more advanced, but they are looking to be web designers. This is just a project for me to update to show I know how to code, and catch attention. 
 
 I just remember the other site I have up and how it is broken. Ill get around to fixing it. There is so much to do and so much to learn. 
+
+
+### January 26 2025 
+
+Sunday funday or whatever, I still need to split up my js file. But in my personal time I have been looking into tailwind css, and typescript. I am looking to see how I can incorporate new languages into my projects.  
