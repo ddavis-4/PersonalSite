@@ -24,24 +24,30 @@
     margin: 0;
 }
 
+/*===== The colors ======*/
+
 .forest-green {
     background-color: #599a59; 
     margin: 0; /* Remove default margin */
+    cursor: help;
 }
 
 .forest-green1 {
     background-color: #4d924d; 
     margin: 0; /* Remove default margin */
+    cursor: wait;
 }
 
 .forest-green2 {
     background-color: #408b40; 
     margin: 0; /* Remove default margin */
+    cursor: vertical-text;
 }
 
-.forest-green3{
+.forest-green3 {
     background-color: #338333;
     margin: 0;  
+    cursor: w-resize;
 }
 .crimson {
     background-color: #DC143c; /*crimson*/
@@ -168,7 +174,6 @@
     align-items: center; /* Center horizontally */
     padding-top: 100px; /* Optional: Add some padding from the top */
     text-align: center; /* Center text */
-    cursor: crosshair; /* Pointer crosshair */
 }
 
 /* ==== is there no easier way to center content????? ==== */
