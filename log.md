@@ -82,4 +82,4 @@ my plan for the js is rather than have a singluar js page for each page I plan t
 
 Big things to come.
 
-I did it, way easier than I thought. I think I am cooking now. 
+I did it, way easier than I thought. I think I am cooking now. it was touch and go for a second there but the routing will no vanquish me. 
