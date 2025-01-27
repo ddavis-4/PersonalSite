@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (contentDiv) {
         const generalContent = `
             <h4>Welcome to My Pro-tfolio!</h4>
-            <p>Sorry! We're under construction.</p>
+            <p4>Sorry! We're under construction.</p4>
             <a href="../pages/Resume.pdf">Resume</a>
         `;
 
