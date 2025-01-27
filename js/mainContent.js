@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <h4>Welcome to My Pro-tfolio!</h4>
         <p>Sorry! We're under construction.</p>
         <a href="pages/Resume.pdf">Resume</a>
+        <a href="pages/Resume.pdf">Resume</a>
     `;
 
     contentDiv.innerHTML += mainContent; // Append main content to the existing content
