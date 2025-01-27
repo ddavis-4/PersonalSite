@@ -83,3 +83,7 @@ my plan for the js is rather than have a singluar js page for each page I plan t
 Big things to come.
 
 I did it, way easier than I thought. I think I am cooking now. it was touch and go for a second there but the routing will not vanquish me. 
+
+Well after I sectioned out my js file I was messing around with TypeScript. I have never done anything with it, and was interested. I think I change my whole project to TS now ? 
+
+From what I understand it is a way to add types to JS, while also making it a compiled language. 
