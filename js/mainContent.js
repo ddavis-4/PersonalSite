@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Example of generating content dynamically
     const mainContent = `
         <a href="pages/Resume.pdf">Resume</a>
+        <a href="pages/Resume.pdf">Resume</a>
         <h4>Welcome to My Pro-tfolio!</h4>
         <p>Sorry! We're under construction.</p>
         <a href="pages/Resume.pdf">Resume</a>
