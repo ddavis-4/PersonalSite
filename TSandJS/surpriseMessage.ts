@@ -26,18 +26,24 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const newLocal = 'click';
     // Like button 
-    document.getElementById('like-button').addEventListener('click', function() {
-        likeClicked = true;
-        this.classList.add('clicked'); // Change button color to red 'hi style.css'
-        checkButtons();
-    });
+    const likeButton = document.getElementById('like-button');
+    const subscribeButton = document.getElementById('subscribe-button');
 
-    // Subscribe button 
-    document.getElementById('subscribe-button').addEventListener('click', function() {
-        subscribeClicked = true;
-        this.classList.add('clicked'); // Change button color to red 'hi style.css'
-        checkButtons();
-    });
+    if (likeButton) {
+        likeButton.addEventListener('click', function() {
+            likeClicked = true;
+            this.classList.add('clicked'); // Change button color to red 'hi style.css'
+            checkButtons();
+        });
+    }
+
+    if (subscribeButton) {
+        subscribeButton.addEventListener('click', function() {
+            subscribeClicked = true;
+            this.classList.add('clicked'); // Change button color to red 'hi style.css'
+            checkButtons();
+        });
+    }
 
     // Function to check if both buttons are clicked
     function checkButtons() {
