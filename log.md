@@ -81,3 +81,5 @@ Also everyone should remember Alan Turing was gay, how about that halting proble
 my plan for the js is rather than have a singluar js page for each page I plan to make js pages for the functions I need and call them on the pages as needed. 
 
 Big things to come.
+
+I did it, way easier than I thought. I think I am cooking now. 
