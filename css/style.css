@@ -122,7 +122,7 @@
     border: none; /* No border */
     padding: 5px 10px; /* Padding */
     border-radius: 3px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor */
+    cursor: crosshair; /* Pointer crosshair */
     margin-left: 10px; /* Space between buttons */
     transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
@@ -168,6 +168,7 @@
     align-items: center; /* Center horizontally */
     padding-top: 100px; /* Optional: Add some padding from the top */
     text-align: center; /* Center text */
+    cursor: crosshair; /* Pointer crosshair */
 }
 
 /* ==== is there no easier way to center content????? ==== */
