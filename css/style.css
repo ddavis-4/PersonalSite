@@ -29,13 +29,13 @@
 .forest-green {
     background-color: #599a59; 
     margin: 0; /* Remove default margin */
-    cursor: help;
+    cursor: vertical-text;
 }
 
 .forest-green1 {
     background-color: #4d924d; 
     margin: 0; /* Remove default margin */
-    cursor: wait;
+    cursor: vertical-text;
 }
 
 .forest-green2 {
@@ -47,7 +47,7 @@
 .forest-green3 {
     background-color: #338333;
     margin: 0;  
-    cursor: w-resize;
+    cursor: vertical-text;
 }
 .crimson {
     background-color: #DC143c; /*crimson*/
@@ -137,10 +137,10 @@
     background-color: #0056b3; /* Darker shade on hover */
 }
 
-/* Add this CSS to change button color when clicked  'hi script.js'*/
+/*change button color when clicked*/
 .sticky-tab button.clicked {
     background-color: red; /* Change to red when clicked */
-    color: black; /* Ensure text is visible */
+    color: black; /* make text black so you an see it */
 }
 
 
