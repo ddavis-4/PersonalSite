@@ -73,3 +73,11 @@ I just remember the other site I have up and how it is broken. Ill get around to
 ### January 26 2025 
 
 Sunday funday or whatever, I still need to split up my js file. But in my personal time I have been looking into tailwind css, and typescript. I am looking to see how I can incorporate new languages into my projects.  
+
+I am making a note here to read, the wealth of nations here so I can close the tab.
+
+Also everyone should remember Alan Turing was gay, how about that halting problem. google how he died.
+
+my plan for the js is rather than have a singluar js page for each page I plan to make js pages for the functions I need and call them on the pages as needed. 
+
+Big things to come.
