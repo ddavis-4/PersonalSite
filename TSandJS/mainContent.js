@@ -4,9 +4,9 @@
 //
 //
 document.addEventListener("DOMContentLoaded", function () {
-    const contentDiv = document.getElementById('contentDiv');
+    const contentDiv = document.querySelector('.content');
     if (contentDiv) {
-        contentDiv.innerHTML = `
+        const mainContent = `
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <h4>Welcome to My Pro-tfolio!</h4>
@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
-            a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
@@ -59,7 +58,6 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
-            a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
@@ -81,7 +79,6 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
-            a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
@@ -103,7 +100,6 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
-            a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
@@ -125,7 +121,6 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
-            a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
@@ -147,7 +142,6 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
-            a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
@@ -169,7 +163,6 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
-            a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
@@ -191,7 +184,6 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
-            a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
@@ -213,7 +205,15 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
             <a href="pages/Resume.pdf">Resume</a>
-
+            <a href="pages/Resume.pdf">Resume</a>
+            <a href="pages/Resume.pdf">Resume</a>
+            <a href="pages/Resume.pdf">Resume</a>
+            <a href="pages/Resume.pdf">Resume</a>
+            <a href="pages/Resume.pdf">Resume</a>
+            <a href="pages/Resume.pdf">Resume</a>
+            <a href="pages/Resume.pdf">Resume</a>
+            <a href="pages/Resume.pdf">Resume</a>
         `;
+        contentDiv.innerHTML += mainContent;
     }
 });

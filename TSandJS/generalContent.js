@@ -6,7 +6,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const contentDiv = document.querySelector('.content'); // needs to be on the page to display the message
     if (contentDiv) {
-        // Example of generating content dynamically
         const generalContent = `
             <h4>Welcome to My Pro-tfolio!</h4>
             <p>Sorry! We're under construction.</p>
