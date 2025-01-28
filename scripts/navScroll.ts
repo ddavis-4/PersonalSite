@@ -14,12 +14,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
             if (currentScroll > lastScrollTop) {
                 // Scrolling down
-                navbar.style.top = '-100px'; // Hide the navbar (adjust this value based on your navbar height)
+                navbar.style.top = '-100px'; // Hide the navbar
             } else {
                 // Scrolling up
                 navbar.style.top = '0'; // Show the navbar
             }
-            lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Update last scroll position
+            lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Update last scroll top
         });
     }
 });
