@@ -1,4 +1,5 @@
 # This is a log of my work on my Project
+My most recent updates are at the bottom.
 
 ### last date of work is Oct 24
 - I did like nothing tbh. 
