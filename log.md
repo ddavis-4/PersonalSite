@@ -100,7 +100,7 @@ I discovered aliasing. I needed to install GCC with brew, and alias it to gcc. I
  
 I also finally attacked my homelab again, I have a debian server now! What shall I do with it? come back next week, I need to lock in with work, school, and personal stuff. So my projects wont get that much attention I dont think in the coming days. 
 
-It is kinda funny, I accidentally installed GNOME on my computer, when I really wanted to install `ssh server`. I plan to just figure out how to disable it, so I can have a desktop enviroment should I ever desire one. It is an old Dell Inspiron. My first objective is to SSH into it. I use SSH every day for school and work. Can I get it to work in my personal life? nope. lol.
+It is kinda funny, I accidentally installed `GNOME` on my computer, when I really wanted to install `ssh server`. I plan to just figure out how to disable it, so I can have a desktop enviroment should I ever desire one. It is an old Dell Inspiron. My first objective is to SSH into it. I use SSH every day for school and work. Can I get it to work in my personal life? nope. lol.
 
 Oh for my senior design project my team is going to make a VR game, gameEngine = Gadot 
 I schemeing up ideas. I have a lot going on, and coming up. A little overwhelming now that I think about it. what do they say?
