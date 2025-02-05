@@ -122,3 +122,11 @@ this too shall pass
 ```     
 
 oops i didnt mean to get so political. will update the log soon. 
+
+
+### Feb 5 2025 02:53:49 AM
+I tried it again (implementing tailwind), I know why i am failing. 
+
+- __I have been asking Github copilot for help instead of reading__
+
+Shame on me, or whatever. ill ready tmr. 
