@@ -133,3 +133,19 @@ Shame on me, or whatever. ill read tmr.
 
 #### 03:06:54 AM
 I am back I aliased all my git commands, and this is a test I need to go to sleep after this. 
+
+
+#### 12:31:32 PM
+Here is some of the documentation I looked at to customize my terminal. 
+
+- https://github.com/romkatv/powerlevel10k/blob/master/README.md#how-do-i-configure-instant-prompt
+
+- https://github.com/ohmyzsh/ohmyzsh/wiki/Themes 
+
+- https://medium.com/seokjunhong/customize-the-terminal-zsh-iterm2-powerlevel10k-complete-guide-for-beginners-35c4ba439055
+
+- https://github.com/athityakumar/colorls?tab=readme-ov-file#installation
+
+- https://medium.com/@sammykerridge/customizing-your-terminal-becoming-a-zsh-power-user-d9a8aab5aad0
+
+- https://github.com/ohmyzsh/ohmyzsh/blob/master/README.md 
