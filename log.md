@@ -87,4 +87,38 @@ I did it, way easier than I thought. I think I am cooking now. it was touch and 
 
 Well after I sectioned out my js file I was messing around with TypeScript. I have never done anything with it, and was interested. I think I change my whole project to TS now ? 
 
-From what I understand it is a way to add types to JS, while also making it a compiled language. 
+From what I understand it is a way to add types to JS, while also making it a compiled language.
+
+
+
+### Feb 4 2025
+wow, so much has changed. but so little time as passed. 
+
+Eh, it has been a little bit. I have been away, my last semester of school has begun all too soon. Funny enough, I feel as though my skills are finally beginning to show. Everything is starting to make sense, and my projects are clicking. My switch to TS was so successful I was excited to implement tailwindcss. I worked on it for like a week, with minimal effort after minimal success. With school, work, and my ADHD, my attention has shifted to other projects. 
+
+I discovered aliasing. I needed to install GCC with brew, and alias it to gcc. I caught a sickness, that could only be cured by more customizing of my computer. Two articles on iterm2 later, and 5 big BOOM's(POWERLEVEL10K). I tricked out my terminal, I can say my productivity has gone through the roof now that my environment is personalized. (literallypushed one thing.)
+ 
+I also finally attacked my homelab again, I have a debian server now! What shall I do with it? come back next week, I need to lock in with work, school, and personal stuff. So my projects wont get that much attention I dont think in the coming days. 
+
+It is kinda funny, I accidentally installed GNOME on my computer, when I really wanted to install `ssh server`. I plan to just figure out how to disable it, so I can have a desktop enviroment should I ever desire one. It is an old Dell Inspiron. My first objective is to SSH into it. I use SSH every day for school and work. Can I get it to work in my personal life? nope. lol.
+
+Oh for my senior design project my team is going to make a VR game, gameEngine = Gadot 
+I schemeing up ideas. I have a lot going on, and coming up. A little overwhelming now that I think about it. what do they say?
+
+```
+it is a good kind of busy
+```
+
+```
+an idle mind is the devils play thing?
+```
+
+```
+the gates of hell are locked from the inside.
+```
+
+```
+this too shall pass
+```     
+
+oops i didnt mean to get so political. will update the log soon. 
