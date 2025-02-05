@@ -148,4 +148,6 @@ Here is some of the documentation I looked at to customize my terminal.
 
 - https://medium.com/@sammykerridge/customizing-your-terminal-becoming-a-zsh-power-user-d9a8aab5aad0
 
-- https://github.com/ohmyzsh/ohmyzsh/blob/master/README.md 
+- https://github.com/ohmyzsh/ohmyzsh/blob/master/README.md
+
+- https://iterm2.com/ 
