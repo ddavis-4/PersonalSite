@@ -129,4 +129,7 @@ I tried it again (implementing tailwind), I know why i am failing.
 
 - __I have been asking Github copilot for help instead of reading__
 
-Shame on me, or whatever. ill ready tmr. 
+Shame on me, or whatever. ill read tmr.
+
+#### 03:06:54 AM
+I am back I aliased all my git commands, and this is a test I need to go to sleep after this. 
