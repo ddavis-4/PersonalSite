@@ -151,3 +151,29 @@ Here is some of the documentation I looked at to customize my terminal.
 - https://github.com/ohmyzsh/ohmyzsh/blob/master/README.md
 
 - https://iterm2.com/ 
+
+
+
+
+
+### Feb 7 10:15:34 AM
+well today was going to be the day. 
+
+but it looks like tmr will be the day. 
+
+Things are well here on the front, I have homework to takecare of and then I am in manhattan for the KU Kstate game, and then back home with my parents for the superbowl. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
