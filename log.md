@@ -165,15 +165,24 @@ Things are well here on the front, I have homework to takecare of and then I am 
 
 
 
+### May 6 11:03:08
+Well its been a few months. I have been working like crazy on my school projects. I want to take a moment and re center myself and my path as a developing computer scientists. I feel like my skills have increased quite a bit since that last time I worked on my personal projects. I am excited to make progress.  
+
+Learning Goal:
+1. Machine learning (AI)
+    I didnt get a change to take any classes on this topic, and I want to learn. I want to make a language model. I dont know too much and i really wanna get my hands dirty.    
+2. Block Chain (crypto-currency)
+    i am very interested in learning about this, there is a lot of money in this area its a popular buzz word and i want to know more about it, and mining crypto currency 
+3. Make a database
+    I was in a database class it was fun and easy. I want to catalog and document animals that I meet in the wild. and other stuff. 
+4. Embedded systems programming
+    I helped my girlfriend with programming a real time clock, on a board using vivado and vhdl. it was super fun micro center trip soon I know I can make something way cooler.  
+
+5. prioritize my servers.
+    what ever this means at this point. 
 
 
-
-
-
-
-
-
-
-
-
-
+Professional Goals:
+1. Get a Job
+2. Start my Companies  
+3. Return to school 
