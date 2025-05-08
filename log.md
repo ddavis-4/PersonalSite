@@ -175,6 +175,7 @@ Learning Goal:
 https://www.blockchain.com/explorer/blocks/btc/895528
 https://coinmarketcap.com/
 https://app.marginfi.com/
+https://app.aave.com/markets/
     i am very interested in learning about this, there is a lot of money in this area its a popular buzz word and i want to know more about it, and mining crypto currency 
 3. Make a database
     I was in a database class it was fun and easy. I want to catalog and document animals that I meet in the wild. and other stuff. 
