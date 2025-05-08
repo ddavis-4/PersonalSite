@@ -172,6 +172,8 @@ Learning Goal:
 1. Machine learning (AI)
     I didnt get a change to take any classes on this topic, and I want to learn. I want to make a language model. I dont know too much and i really wanna get my hands dirty.    
 2. Block Chain (crypto-currency)
+https://www.blockchain.com/explorer/blocks/btc/895528
+https://coinmarketcap.com/
     i am very interested in learning about this, there is a lot of money in this area its a popular buzz word and i want to know more about it, and mining crypto currency 
 3. Make a database
     I was in a database class it was fun and easy. I want to catalog and document animals that I meet in the wild. and other stuff. 
