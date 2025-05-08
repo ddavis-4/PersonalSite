@@ -191,4 +191,8 @@
     display: block;
     margin: 20px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width:300px;
+    height:auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
 }
