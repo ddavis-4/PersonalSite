@@ -230,3 +230,30 @@
 .qa-answer {
     display: none;
 }
+
+.about-intro {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.headshot {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    border: 3px solid #338333;
+}
+
+.intro-bubble {
+    background: #f6fff6;
+    border-radius: 18px;
+    padding: 18px 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    font-size: 1.1em;
+    color: #222;
+    max-width: 400px;
+}
