@@ -229,6 +229,12 @@
 
 .qa-answer {
     display: none;
+    background: #fff; 
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    transition: background 0.3s;
 }
 
 .about-intro {
