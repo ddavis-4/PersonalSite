@@ -196,3 +196,41 @@
     border-radius: 15px;
     transition: transform 0.3s ease; /* Smooth transition for hover effect */
 }
+
+/* ================== Q&A Section ================== */
+.qa-section {
+    margin-top: 30px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.qa-item {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.qa-question {
+    background: #FFFFF0;
+    color: #338333;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    transition: background 0.2s;
+}
+
+.qa-question:hover {
+    background: #d3e8d3;
+}
+
+.qa-answer {
+    background: #f6fff6;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}

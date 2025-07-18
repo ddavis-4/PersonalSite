@@ -25,10 +25,102 @@
     <div class="content">
         <h2>About Me</h2>
         <p>This is the about page!</p>
+
+        <div class="qa-section">
+            <h3>Ask Me Anything!</h3>
+
+            <div class="qa-item">
+                <button class="qa-question">What are your favorite hobbies?</button>
+                <div class="qa-answer" style="display:none;">
+                    I love gardening, fishing, chess, bjj, tennis, working on tech projects, and spending time with friends and family!
+                </div>
+            </div>
+
+            <div class="qa-item">
+                <button class="qa-question">Where did you go to school?</button>
+                <div class="qa-answer" style="display:none;">
+                    I studied Computer Science at the University of Kansas. I graduated in 2025 with a minor in business, and a certificate in cybersecurity.
+                </div>
+            </div>
+
+            <div class="qa-item">
+                <button class="qa-question">What were you involved with in school?</button>
+                <div class="qa-answer" style="display:none;">
+                    In college I was involved with club tennis, club jujitsu, ACM, and I was president of the KU chapter of LXA. 
+                </div>
+            </div>
+
+            <div class="qa-item">
+                <button class="qa-question">What is your professional experience?</button>
+                <div class="qa-answer" style="display:none;">
+                    In my professional career so far, I have worked as a Undergraduate Research Assistant where I had the opportunity to work on multiple projects under the supervision of a professor. Before that, I also worked as an Orientationi Assistant for the University of Kanasas. Where I was able to hone my leadership, communication, and public speaking skills. Check out my resume for more details! 
+                </div>
+            </div>
+
+            <div class="qa-item">
+                <button class="qa-question">What are your future goals?</button>
+                <div class="qa-answer" style="display:none;">
+                    I want to get a job at a company where I can continue to develop as a Computer Scientist. Where my technical skills can continue to grow stronger, and my communication skills can shine.
+                </div>
+            </div>
+
+            <div class="qa-item">
+                <button class="qa-question">What is your favorite programming language?</button>
+                <div class="qa-answer" style="display:none;">
+                    I enjoy working with JavaScript/Typescript, C, and Python the most.
+                </div>
+            </div>
+
+            <div class="qa-item">
+                <button class="qa-question">What is your favorite book?</button>
+                <div class="qa-answer" style="display:none;">
+                    Blood Meridian by Cormac Mcarthy. Not for the light-hearted, but a masterpiece.
+                </div>
+            </div>
+
+            <div class="qa-item">
+                <button class="qa-question">What is your favorite movie?</button>
+                <div class="qa-answer" style="display:none;">
+                    I enjoy "V for Vendetta", I love the concept that revolutionary ideas are more powerful and everlasting than the people that start them.
+                </div>
+            </div>
+
+            <div class="qa-item">
+                <button class="qa-question">What is your favorite music genre?</button>
+                <div class="qa-answer" style="display:none;">
+                    Ill listen to anything. I used to be against country music, but then I grew up.
+                </div>
+            </div>
+
+            <div class="qa-item">
+                <button class="qa-question">What is your favorite project?</button>
+                <div class="qa-answer" style="display:none;">
+                    I like this question! I think of my projects in 3 catagories, work, school, and personal. My favorite work project was a Social Engineering study of phishing techniques, and attack methodologies, attempting to discover trends in suseptability patterns.
+                    My favorite school project was a VR game called "escape at the museum", where I worked on a team of five to make an escape game. I enjoyed making goxel models, programming in godot script, and working with a team to create a fun interactive story.
+                    My favorite personal project is my homelab! I have been working on it for a while now and my progress is a little slow, but I love applying all the concepts I learned in College. 
+                </div>
+            </div>
+
+            <div class="qa-item">
+                <button class="qa-question">What is the best joke you know?</button>
+                <div class="qa-answer" style="display:none;">
+                    why did tiger stick his head in the toilet? Because he was looking for pooh!
+                </div>
+            </div>
+        
+        </div>
     </div>
     <!-- <script src="js/script.js"></script> Fix me Please -->
     <script src="../scripts/generalContent.js"></script>
     <script src="../scripts/surpriseMessage.js"></script>
     <script src="../scripts/navScroll.js"></script>
+    <script>
+        document.querySelectorAll('.qa-question').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const answer = btn.nextElementSibling;
+                answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+            });
+        });
+    </script>
 </body>
 </html>
