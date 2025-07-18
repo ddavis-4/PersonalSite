@@ -113,10 +113,12 @@
     <script src="../scripts/surpriseMessage.js"></script>
     <script src="../scripts/navScroll.js"></script>
     <script>
-        document.querySelectorAll('.qa-question').forEach(btn => {
-            btn.addEventListener('click', () => {
-                const answer = btn.nextElementSibling;
-                answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.qa-question').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const answer = btn.nextElementSibling;
+                    answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+                });
             });
         });
     </script>
