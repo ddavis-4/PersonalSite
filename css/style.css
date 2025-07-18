@@ -228,9 +228,5 @@
 }
 
 .qa-answer {
-    background: #f6fff6;
-    padding: 10px 15px;
-    border-radius: 8px;
-    margin-top: 5px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    display: none;
 }
