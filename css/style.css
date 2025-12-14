@@ -29,25 +29,21 @@
 .forest-green {
     background-color: #599a59; 
     margin: 0; /* Remove default margin */
-    cursor: vertical-text;
 }
 
 .forest-green1 {
     background-color: #4d924d; 
     margin: 0; /* Remove default margin */
-    cursor: vertical-text;
 }
 
 .forest-green2 {
     background-color: #408b40; 
     margin: 0; /* Remove default margin */
-    cursor: vertical-text;
 }
 
 .forest-green3 {
     background-color: #338333;
     margin: 0;  
-    cursor: vertical-text;
 }
 .crimson {
     background-color: #DC143c; /*crimson*/

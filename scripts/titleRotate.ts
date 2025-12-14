@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'Python Developer',
         'Developing Developer',
         'Computer Scientist'
+        'Developer'
     ];
 
     const defaultTitle = 'Developer';
