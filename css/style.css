@@ -61,52 +61,29 @@
 
 
 
-/*==================== The navigation ==============================*/
-.navbar {
-    background-color: #FFFFF0; /* Background color for the navbar */
-    position: fixed; /* Make the navbar fixed at the top */
-    top: 0; /* Position it at the top of the screen */
-    width: 100%; /* Ensure it spans the full width */
-    z-index: 1000; /* Ensure it appears above other content */
-    padding: 20px 0; /* Add vertical padding to increase height */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for depth */
-    padding-bottom: 5px;
-    transition: top 0.3s;
+/*==================== Main Container ==============================*/
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    gap: 40px;
 }
 
-.navbar .container {
-    max-width: 1200px; /* Optional: Set a max width for the content */
-    margin: 0 auto; /* Center the content */
-    padding: 0 20px; /* Add horizontal padding */
+.rotating-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #338333;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    user-select: none;
 }
 
-.navbar nav ul {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0; /* Remove padding */
-    display: flex; /* Use flexbox for horizontal layout */
-}
-
-.navbar nav ul li {
-    margin: 0 15px; /* Space between tabs */
-}
-
-.navbar nav ul li a {
-    color: black; /* Text color */
-    text-decoration: none; /* Remove underline */
-    padding: 10px 15px; /* Padding for clickable area */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-    font-family: 'Courier New', Courier, monospace
-}
-
-.navbar nav ul li a:hover {
-    background-color: #555; /* Change background on hover */
-}
-
-.logo {
-    color: black; /* Change this to your desired color */
-    font-size: 24px; /* Adjust the font size */
-    margin: 0; /* Remove default margin */
-    font-family: 'Courier New', Courier, monospace
+.rotating-title:hover {
+    color: #4d924d;
 }
 
 /* ====================== The sticky tab ===========================*/ 
@@ -165,101 +142,55 @@
 
 
 
-/* ================ Content ==============*/
-/* This needs to be on the page for the js to work */
-/* Add this CSS to center the content horizontally at the top */
-.content {
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center horizontally */
-    padding-top: 100px; /* Optional: Add some padding from the top */
-    text-align: center; /* Center text */
-}
-
-/* ==== is there no easier way to center content????? ==== */
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 1000vh; /* Adjust me */
-}
-
-
-/* ================== The random image code ================== */
-#random-image-container img {
-    display: block;
-    margin: 20px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width:300px;
-    height:auto;
-    border-radius: 15px;
-    transition: transform 0.3s ease; /* Smooth transition for hover effect */
-}
-
-/* ================== Q&A Section ================== */
-.qa-section {
-    margin-top: 30px;
-    max-width: 500px;
-    width: 100%;
-}
-
-.qa-item {
-    margin-bottom: 15px;
-    text-align: left;
-}
-
-.qa-question {
-    background: #FFFFF0;
-    color: #338333;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 8px;
-    font-size: 1rem;
+/* ================== Image Container ================== */
+#image-container {
+    position: relative;
+    width: 450px;
+    height: 450px;
     cursor: pointer;
+}
+
+#image-container .switch-image {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    text-align: left;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
-    transition: background 0.2s;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }
 
-.qa-question:hover {
-    background: #d3e8d3;
+#image-container .switch-image.active {
+    opacity: 1;
 }
 
-.qa-answer {
-    display: none;
-    background: #fff;
-    padding: 10px 15px;
-    border-radius: 8px;
-    margin-top: 5px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-    transition: background 0.3s;
-}
-
-.about-intro {
+/* ================== Icon Links ================== */
+.links-container {
     display: flex;
-    align-items: center;
     gap: 30px;
-    margin-bottom: 40px;
+    align-items: center;
     justify-content: center;
 }
 
-.headshot {
-    width: 140px;
-    height: 140px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-    border: 3px solid #338333;
+.icon-link {
+    display: inline-block;
+    transition: transform 0.3s ease;
 }
 
-.intro-bubble {
-    background: #f6fff6;
-    border-radius: 18px;
-    padding: 18px 24px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-    font-size: 1.1em;
-    color: #222;
-    max-width: 400px;
+.icon-link:hover {
+    transform: scale(1.15);
+}
+
+.icon-link img {
+    width: 50px;
+    height: 50px;
+    filter: brightness(0.9);
+    transition: filter 0.3s ease;
+}
+
+.icon-link:hover img {
+    filter: brightness(1.1);
 }

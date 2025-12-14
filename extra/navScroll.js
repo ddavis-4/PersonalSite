@@ -1,14 +1,15 @@
+"use strict";
 // This is the file for the navbar scroll effect.
 //
 //
 //
 //
 document.addEventListener("DOMContentLoaded", function () {
-    var lastScrollTop = 0; // Variable to store the last scroll position
-    var navbar = document.querySelector('.navbar'); // Select the navbar and cast to HTMLElement
+    let lastScrollTop = 0; // Variable to store the last scroll position
+    const navbar = document.querySelector('.navbar'); // Select the navbar and cast to HTMLElement
     if (navbar) {
         window.addEventListener('scroll', function () {
-            var currentScroll = window.pageYOffset || document.documentElement.scrollTop; // Get the current scroll position
+            const currentScroll = window.pageYOffset || document.documentElement.scrollTop; // Get the current scroll position
             if (currentScroll > lastScrollTop) {
                 // Scrolling down
                 navbar.style.top = '-100px'; // Hide the navbar
