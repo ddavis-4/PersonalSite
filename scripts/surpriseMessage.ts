@@ -127,6 +127,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const jayhawkCard = document.createElement('div');
         jayhawkCard.className = 'jayhawk-card';
+        // Set background image via JavaScript instead of CSS
+        jayhawkCard.style.backgroundImage = 'url(/pictures/allenbackground.jpeg)';
         jayhawkCard.innerHTML = `
             <div class="jayhawk-record">${currentRecord}</div>
             ${nextGameInfo ? `<div class="jayhawk-next-game">${nextGameInfo}</div>` : ''}
