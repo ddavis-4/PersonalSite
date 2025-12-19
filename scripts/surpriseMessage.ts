@@ -73,16 +73,16 @@ document.addEventListener("DOMContentLoaded", function() {
             message.classList.add('slide-in'); // Add slide-in class to start animation
         }, 10); // Small timeout to ensure the class is applied after the element is in the DOM
 
-        // Remove the message after 9 seconds
+        // Remove the message after 5 seconds
         setTimeout(() => {
             message.style.display = 'none'; // Hide the message
             document.body.removeChild(message); // Remove the message from the DOM
 
-            // Wait 5 more seconds, then show the Jayhawk card
+            // Wait 1 more second, then show the Jayhawk card
             setTimeout(() => {
                 showJayhawkCard();
-            }, 2000);
-        }, 9000);
+            }, 1000);
+        }, 5000);
     }
 
     // Function to fetch KU basketball record
@@ -163,18 +163,28 @@ document.addEventListener("DOMContentLoaded", function() {
                 const gameDate = new Date(nextGame.date);
                 const opponent = nextGame.competitions[0].competitors.find((c: any) => c.id !== TEAM_ID);
                 const opponentName = opponent?.team?.shortDisplayName || opponent?.team?.displayName || 'TBD';
-                const isHome = nextGame.competitions[0].competitors.find((c: any) => c.id === TEAM_ID)?.homeAway === 'home';
 
-                // Calculate days until game
-                const daysUntil = Math.ceil((gameDate.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
+                // Calculate time until game
+                const msUntil = gameDate.getTime() - now.getTime();
+                const days = Math.floor(msUntil / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((msUntil % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((msUntil % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((msUntil % (1000 * 60)) / 1000);
 
-                if (daysUntil === 0) {
-                    return `${isHome ? 'vs' : '@'} ${opponentName} TODAY`;
-                } else if (daysUntil === 1) {
-                    return `${isHome ? 'vs' : '@'} ${opponentName} TOMORROW`;
+                let timeString = '';
+                if (days > 0) {
+                    timeString = `: ${days}D`;
+                } else if (hours > 0) {
+                    timeString = `: ${hours}H`;
+                } else if (minutes > 0) {
+                    timeString = `: ${minutes}M`;
+                } else if (seconds > 0) {
+                    timeString = `: ${seconds}S`;
                 } else {
-                    return `${isHome ? 'vs' : '@'} ${opponentName} in ${daysUntil} days`;
+                    timeString = 'NOW';
                 }
+
+                return `KU VS ${opponentName} ${timeString}`;
             }
 
             return null;

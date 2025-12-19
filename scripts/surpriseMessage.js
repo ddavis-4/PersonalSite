@@ -71,15 +71,15 @@ document.addEventListener("DOMContentLoaded", function () {
         setTimeout(() => {
             message.classList.add('slide-in'); // Add slide-in class to start animation
         }, 10); // Small timeout to ensure the class is applied after the element is in the DOM
-        // Remove the message after 9 seconds
+        // Remove the message after 5 seconds
         setTimeout(() => {
             message.style.display = 'none'; // Hide the message
             document.body.removeChild(message); // Remove the message from the DOM
-            // Wait 5 more seconds, then show the Jayhawk card
+            // Wait 1 more second, then show the Jayhawk card
             setTimeout(() => {
                 showJayhawkCard();
-            }, 2000);
-        }, 9000);
+            }, 1000);
+        }, 5000);
     }
     // Function to fetch KU basketball record
     function fetchKURecord() {
@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Function to fetch next game
     function fetchNextGame() {
         return __awaiter(this, void 0, void 0, function* () {
-            var _a, _b, _c;
+            var _a, _b;
             const TEAM_ID = '2305';
             const SCHEDULE_URL = `https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/${TEAM_ID}/schedule`;
             try {
@@ -157,18 +157,29 @@ document.addEventListener("DOMContentLoaded", function () {
                     const gameDate = new Date(nextGame.date);
                     const opponent = nextGame.competitions[0].competitors.find((c) => c.id !== TEAM_ID);
                     const opponentName = ((_a = opponent === null || opponent === void 0 ? void 0 : opponent.team) === null || _a === void 0 ? void 0 : _a.shortDisplayName) || ((_b = opponent === null || opponent === void 0 ? void 0 : opponent.team) === null || _b === void 0 ? void 0 : _b.displayName) || 'TBD';
-                    const isHome = ((_c = nextGame.competitions[0].competitors.find((c) => c.id === TEAM_ID)) === null || _c === void 0 ? void 0 : _c.homeAway) === 'home';
-                    // Calculate days until game
-                    const daysUntil = Math.ceil((gameDate.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
-                    if (daysUntil === 0) {
-                        return `${isHome ? 'vs' : '@'} ${opponentName} TODAY`;
+                    // Calculate time until game
+                    const msUntil = gameDate.getTime() - now.getTime();
+                    const days = Math.floor(msUntil / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((msUntil % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((msUntil % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((msUntil % (1000 * 60)) / 1000);
+                    let timeString = '';
+                    if (days > 0) {
+                        timeString = `: ${days}D`;
                     }
-                    else if (daysUntil === 1) {
-                        return `${isHome ? 'vs' : '@'} ${opponentName} TOMORROW`;
+                    else if (hours > 0) {
+                        timeString = `: ${hours}H`;
+                    }
+                    else if (minutes > 0) {
+                        timeString = `: ${minutes}M`;
+                    }
+                    else if (seconds > 0) {
+                        timeString = `: ${seconds}S`;
                     }
                     else {
-                        return `${isHome ? 'vs' : '@'} ${opponentName} in ${daysUntil} days`;
+                        timeString = 'NOW';
                     }
+                    return `KU VS ${opponentName} ${timeString}`;
                 }
                 return null;
             }

@@ -193,13 +193,21 @@
     padding: 10px 20px; /* Padding */
     border-radius: 5px; /* Rounded corners */
     z-index: 1001; /* Ensure it appears above other content */
-    transition: transform 9s ease; /* Smooth transition for movement */
     transform: translateX(0); /* Start at the original position */
 }
 
-/* Slide-in animation */
+/* Slide-in animation - fast, slow middle, fast end */
 .popup-message.slide-in {
-    transform: translateX(-100vw); /* Move to the left off-screen */
+    animation: slideAcross 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+@keyframes slideAcross {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100vw);
+    }
 }
 
 /* ================ Jayhawk Card ============== */
@@ -207,7 +215,7 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-image: url('../pictures/allenBackground.jpeg');
+    background-image: url('../pictures/allenbackground.jpeg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -232,15 +240,15 @@
 }
 
 .jayhawk-record {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: 900;
     color: #FFFFFF;
     font-family: 'Arial Black', Impact, sans-serif;
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     background: #000000;
-    padding: 2px 15px;
-    border: 3px solid #FFFFFF;
+    padding: 0px 8px;
+    border: 2px solid #FFFFFF;
     border-radius: 1px;
 }
 
