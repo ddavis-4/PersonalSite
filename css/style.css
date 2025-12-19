@@ -215,7 +215,8 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-image: url('../pictures/allenbackground.jpeg');
+    background-color: #2F5873;
+    background-image: url('/pictures/allenbackground.jpeg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -233,6 +234,18 @@
     align-items: flex-start;
     justify-content: flex-end;
     gap: 8px;
+}
+
+.jayhawk-card::before {
+    content: 'ALLEN FIELDHOUSE';
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 0.7rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Arial Black', Impact, sans-serif;
+    letter-spacing: 1px;
 }
 
 .jayhawk-card.fade-in {
