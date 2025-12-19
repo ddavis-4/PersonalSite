@@ -1,3 +1,30 @@
+/*==================== Custom Scrollbar ==============================*/
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #457E9F #e8f4ff;
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e8f4ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #457E9F;
+    border-radius: 6px;
+    border: 2px solid #e8f4ff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2F5873;
+}
+
 /*==================== The Colors ==============================*/
 
 /* Not all are used */
@@ -180,15 +207,16 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-image: url('../pictures/aiGeneratedJayhawk.png');
+    background-image: url('../pictures/allenBackground.jpeg');
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: auto;
+    min-height: 180px;
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     z-index: 1001;
     opacity: 0;
     transition: opacity 1s ease-in;
@@ -196,7 +224,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    gap: 5px;
+    gap: 8px;
 }
 
 .jayhawk-card.fade-in {
@@ -208,9 +236,10 @@
     font-weight: 900;
     color: #FFFFFF;
     font-family: 'Arial Black', Impact, sans-serif;
-    text-align: left;
+    text-align: center;
     letter-spacing: 4px;
     background: #000000;
+    padding: 2px 15px;
     border: 3px solid #FFFFFF;
     border-radius: 1px;
 }
@@ -281,4 +310,27 @@
 
 .icon-link:hover img {
     filter: brightness(1.1);
+}
+
+/* ================== Copy Notification ================== */
+.copy-notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100px);
+    background: #2F5873;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 2000;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.copy-notification.show {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
 }
