@@ -5,17 +5,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Create three image elements
     const img1 = document.createElement('img');
-    img1.src = 'pictures/headShotBlue.jpg';
+    img1.src = '/pictures/headShotBlue.jpg';
     img1.alt = 'Profile Image 1';
     img1.className = 'switch-image active';
 
     const img2 = document.createElement('img');
-    img2.src = 'pictures/babyNinja.jpg';
+    img2.src = '/pictures/babyNinja.jpg';
     img2.alt = 'Profile Image 2';
     img2.className = 'switch-image';
 
     const img3 = document.createElement('img');
-    img3.src = 'pictures/IMG_0864.jpeg';
+    img3.src = '/pictures/IMG_0864.jpeg';
     img3.alt = 'Profile Image 3';
     img3.className = 'switch-image';
 
