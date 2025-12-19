@@ -4,36 +4,19 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!titleElement) return;
 
     const titles = [
+        'Developer',
         'TypeScript Developer',
+        'JavaScript Developer',
         'Python Developer',
         'Developing Developer',
         'Computer Scientist'
-        'Developer'
     ];
 
-    const defaultTitle = 'Developer';
     let currentIndex = 0;
-    let intervalId: number | null = null;
-
-    titleElement.textContent = defaultTitle;
-
-    function cycleTitles() {
-        titleElement!.textContent = titles[currentIndex];
-        currentIndex = (currentIndex + 1) % titles.length;
-    }
+    titleElement.textContent = titles[currentIndex];
 
     titleElement.addEventListener('mouseenter', () => {
-        currentIndex = 0;
-        cycleTitles();
-        intervalId = setInterval(cycleTitles, 1000);
-    });
-
-    titleElement.addEventListener('mouseleave', () => {
-        if (intervalId) {
-            clearInterval(intervalId);
-            intervalId = null;
-        }
-        currentIndex = 0;
-        titleElement.textContent = defaultTitle;
+        currentIndex = (currentIndex + 1) % titles.length;
+        titleElement.textContent = titles[currentIndex];
     });
 });

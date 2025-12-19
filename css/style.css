@@ -27,8 +27,18 @@
 /*===== The colors ======*/
 
 .forest-green {
-    background-color: #599a59; 
+    background: linear-gradient(
+        135deg,
+        #2F5873 0%,
+        #457E9F 20%,
+        #65A2BC 40%,
+        #FFFFFF 50%,
+        #65A2BC 60%,
+        #457E9F 80%,
+        #2F5873 100%
+    );
     margin: 0; /* Remove default margin */
+    min-height: 100vh;
 }
 
 .forest-green1 {
@@ -71,7 +81,7 @@
 .rotating-title {
     font-size: 3rem;
     font-weight: bold;
-    color: #338333;
+    color: #2F5873;
     font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
     transition: color 0.3s ease;
@@ -79,7 +89,36 @@
 }
 
 .rotating-title:hover {
-    color: #4d924d;
+    color: #457E9F;
+}
+
+/* ================== Sticky Tab Button Layout ================== */
+.sticky-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.ku-record {
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: #1a1a1a;
+    font-family: Impact, 'Arial Black', sans-serif;
+    white-space: nowrap;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.ku-record:hover {
+    color: #2F5873;
+    transform: scale(1.1);
 }
 
 /* ====================== The sticky tab ===========================*/ 
@@ -134,6 +173,59 @@
 /* Slide-in animation */
 .popup-message.slide-in {
     transform: translateX(-100vw); /* Move to the left off-screen */
+}
+
+/* ================ Jayhawk Card ============== */
+.jayhawk-card {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-image: url('../pictures/aiGeneratedJayhawk.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 1001;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.jayhawk-card.fade-in {
+    opacity: 1;
+}
+
+.jayhawk-record {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-family: 'Arial Black', Impact, sans-serif;
+    text-align: left;
+    letter-spacing: 4px;
+    background: #000000;
+    border: 3px solid #FFFFFF;
+    border-radius: 1px;
+}
+
+.jayhawk-next-game {
+    font-size: 0.85rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-family: 'Arial Black', Impact, sans-serif;
+    text-align: left;
+    letter-spacing: 1px;
+    background: #000000;
+    padding: 5px 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
 }
 
 
